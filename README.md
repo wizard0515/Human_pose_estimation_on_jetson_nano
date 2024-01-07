@@ -1,9 +1,9 @@
 # Human_Pose_Estimation_on_Jetson_Nano
 
-This project is designed for running human_pose_estimation algorithm on embedded devide nvdia jetson nano.  We have made several achivements to enhance the performance.
-    --use network models after pruning for lightweight application on jeston nano, according to paper [Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf);
-    --instead of original python code, we rewrite the post processing code with C++ with OpenCV for faster inference speed;
-    --based on the GPU on jetson nano, we increase the CUDA acceleration code to further improve the inference progress.
+This project is designed for running human_pose_estimation algorithm on embedded devide nvdia jetson nano.  We have made several improvements to enhance the performance.  
+    --use network models after pruning for lightweight application on jeston nano, according to paper [Real-time 2D Multi-Person Pose Estimation on CPU:   Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf);  
+    --instead of original python code, we rewrite the post processing code with C++ with OpenCV for faster inference speed;  
+    --based on the GPU on jetson nano, we increase the CUDA acceleration code to further improve the inference progress.  
 
 We first run some tests on single pictures, the result shown as follows:
 
